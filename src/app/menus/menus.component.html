@@ -1,0 +1,12 @@
+<div class="content">
+  <form [formGroup]="myGroup">
+    <input formControlName="capacity"  [(ngModel)]="parking.capacity" placeholder="Capacité" type="number" require="required"><br>
+    <input formControlName="location"  [(ngModel)]="parking.location" placeholder="Localisation" type="text" require="required">
+    <div class="comnd">
+      <a class="btn" (click)="addParking()">Ajoutez</a>
+    </div>
+    <div *ngIf="submitted">
+      <h4>You submitted successfully!</h4>
+    </div>
+  </form>
+</div>

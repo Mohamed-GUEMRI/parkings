@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px 12px;
+}
+#bag{
+    color: #000;
+    font-size: 20px;
+}
+#bag:hover{
+    color: #4254f5;
+}
+nav {
+    background-color: #ececec;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+nav i{
+    font-size: 50px;
+    color: #4254f5;
+}
+nav a{
+    text-decoration: none;
+    color: #000;
+}
+nav .car{
+    color: #4254f5;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.menu{
+    margin-right: 20px;
+}
+
+.menu a{
+    padding-left: 20px;
+}
+
+.menu a:hover{
+    color: 	#95989D;
+}
+
+.logo a h1{
+  font-size: 36px;
+}
+
+.logo a:hover{
+    color: 	#95989D;
+}
+
+.menu i{
+    font-size: 16px;
+    color: #000;
+}
+
+.menu i:hover{
+    color: #4254f5;
+}
+
+// media queries (responsive design)
+
+@media (max-width: 1023px){
+    .menu a{
+        padding-left: 20px;
+        font-size: 25px;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 641px){
+    h1{
+        font-size: 0.7em;
+    }
+    .menu a{
+        font-size: 0.8em;
+        padding-left: 8px;
+
+    }
+}
+
+@media (max-width: 300px){
+    h1{
+        font-size: 7px;
+    }
+    .menu a{
+        font-size: 11px;
+        padding-left: 8px;
+
+    }
+}

@@ -1,0 +1,26 @@
+
+<div class="content">
+  <div *ngFor="let parking of parkings">
+      <div class="card">
+        <div class="comnd">
+          <a  class="btn" (click)="deleteParking(parking.id)" style="background-color: red; float: right;width: 30px;">X</a>
+        </div>
+        <a routerLink="/register">
+          <div class="price">
+              <h5>id:{{parking.id}}</h5><br>
+              <h6 style="color: #000; font-size: 13px;">{{parking.localisation}}</h6>
+          </div>
+        </a>
+          <div class="project-img">
+          </div>
+          <div class="info">
+              <h3>001/{{parking.capacity}}</h3>
+          </div>
+          <div class="comnd">
+            <a class="btn" routerLink="/berguers/{{parking.id}}">Modifiez</a>
+          </div>
+
+      </div>
+
+</div>
+</div>

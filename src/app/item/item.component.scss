@@ -1,0 +1,35 @@
+.card{
+    background-color: #ececec;
+    width: 21.25em;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+    text-align: center;
+    color: #000;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+img {
+    width: 80%;
+    padding: auto;
+}
+.comnd a{
+    background-color: #000;
+    color: #fff;
+}
+.comnd a:hover{
+    transform: scale(1.1);
+    transition: 0.7s ease;
+}
+
+.price{
+    width: 60px;
+    height: 30px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}

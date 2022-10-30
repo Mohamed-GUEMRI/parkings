@@ -1,0 +1,10 @@
+<div class="content">
+  <form [formGroup]="myGroup">
+    <input formControlName="id" [(ngModel)]="id"  readonly type="number"><br>
+    <input formControlName="capacity" [(ngModel)]="currentParking.capacity"  type="number"><br>
+    <input formControlName="location"  [(ngModel)]="currentParking.localisation" type="text" require="required">
+    <div class="comnd">
+      <a class="btn" (click)="updateParking()">Modifier</a>
+    </div>
+  </form>
+</div>

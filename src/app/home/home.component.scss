@@ -1,0 +1,58 @@
+.main{
+    text-align: center;
+    margin-top: 100px;
+}
+
+h2{
+    color: #4254f5;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+h1{
+    font-size: 120px;
+}
+
+h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: #4254f5;
+    font-size: 5em;
+    font-weight: 600;
+}
+
+h3{
+    color: #4254f5;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-button{
+    text-decoration: none;
+    color: #fff;
+    background-color: #4254f5;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    transition: 0.7s ease;
+}
+
+.main-button:hover{
+    background-color: #4254f5;
+    transform: scale(1.1);
+    color: #000;
+}
+
+.car{
+    color: #4254f5;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}

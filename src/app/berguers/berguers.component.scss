@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.comnd a{
+  background-color: black;
+  color: #fff;
+  width: 140px;
+}
+.comnd a:hover{
+  transform: scale(1.1);
+  transition: 0.7s ease;
+}
